@@ -10,6 +10,11 @@ namespace WebApplicationPB.Controllers
     {
         public ActionResult Index()
         {
+            for (int i = 0; i < 500; i++)
+            {
+                string bla = i.ToString();
+            }
+
             return View();
         }
 
